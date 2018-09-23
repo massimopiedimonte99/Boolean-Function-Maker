@@ -4,8 +4,6 @@
 #include <algorithm>
 #include <ctime>
 
-/**
- */
 class BooleanExpression
 {
 public:
@@ -75,9 +73,9 @@ public:
          * in case you want to nicely format the console
          * output. 
          */
-        printf("%s\t%s\t%s\n", "x", "y", "f");
+        printf("%s  %s  %s\n", "x", "y", "f");
         for (int i = 0; i < this->vectorSize; i++) {
-            printf("%d\t", this->bits[i]);
+            printf("%d  ", this->bits[i]);
             if(i!=0 && (i+1)%3==0) printf("\n");
         }
     }
