@@ -10,13 +10,16 @@ the so called "Truth Table" and picking up the rows in which the value of the  f
 
 For example, if we check the Truth Table of the XOR boolean expression, what we get is:
 
+```
 a    b   Xor
 0    0   0
 0    1   1
 1    0   1
 1    1   0
+```
 
 So, XOR gets 1 when:
 
-a and NOT b 
-b and NOT a
+```
+a and NOT b OR b and NOT a
+```
